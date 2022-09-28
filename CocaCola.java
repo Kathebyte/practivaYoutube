@@ -42,7 +42,7 @@ class CocaCola{
          System.out.println(nombre + "Tienes 22 dias de vacaciones");
       }
    }else if(clave == 2){
-      if (antiguedad == 2){
+      if (antiguedad == 1){
          System.out.println(nombre + "tienes 7 dias de vacaciones");
       }else if (antiguedad >= 2 && antiguedad < 6){
          System.out.println(nombre + "Tienes 15 dias de vacaciones");
@@ -50,12 +50,12 @@ class CocaCola{
          System.out.println(nombre + "tienes 22 dias de vacaciones");
       }
    }else if(clave == 3){
-      if (antiguedad == 3){
+      if (antiguedad == 1){
          System.out.println(nombre + "tienes 10 dias de vacaciones");
       }else if (antiguedad >= 2 && antiguedad < 6){
          System.out.println(nombre + "Tienes 20 dias de vacaciones");
       }else if (antiguedad >= 7){
-         System.out.println(nombre + "tienes 30 dias de vacaciones");
+         System.out.println(nombre + " tienes 30 dias de vacaciones");
       }
    }
    datos.close();
